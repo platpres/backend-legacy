@@ -23,6 +23,7 @@
     "console:dev": "ts-node -r tsconfig-paths/register src/console.ts"
   },
   "dependencies": {
+    "@aws-sdk/client-mediaconvert": "^3.1014.0",
     "@aws-sdk/client-ses": "^3.54.0",
     "@nestjs/common": "^8.0.0",
     "@nestjs/config": "^2.0.0",
